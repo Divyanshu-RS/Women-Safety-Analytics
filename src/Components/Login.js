@@ -96,7 +96,7 @@ export default function Login() {
                 <br></br>
                 <div style={{ marginBottom: '1rem', 'margin-left': '25px', }}>
                   <label htmlFor="email" className='ha'>Mail ID:</label>
-                  <input className='h' type="email" id='inp1' placeholder="  email@mail.com" required style={{ width: '70%' }} />
+                  <input className='h' type="email" id='inp1' placeholder="  email@mail.com" name="email" required style={{ width: '70%' }} />
                 </div>
                 <div style={{ marginBottom: '1rem', 'margin-left': '25px', }}>
                   <label htmlFor="password" className='ha'>Password:</label>
@@ -113,9 +113,9 @@ export default function Login() {
                   }} />
                 </a>
 
-                {message && <p className='error-message' style={{ color: 'red', textAlign: 'center' }}>{message}</p>}
-                <p id='text' style={{ textAlign: 'center' }}><br></br>Forgot <span className=''>Username / password ?</span></p>
-                <a href="/MainPage" target="_blank" rel="noopener noreferrer" id='a' style={{ display: 'block', textAlign: 'center', marginTop: '1rem' }}>Create your account->.</a>
+                {message && <p className='error-message' style={{ color: 'red', textAlign: 'center' }}>message</p>}
+               <p id='text' style={{ textAlign: 'center' }}><br />Forgot <span><a href="/Registration" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>Username / password?</a></span></p>
+              <a href="/Registration" target="_blank" rel="noopener noreferrer" id='a' style={{ display: 'block', textAlign: 'center'}}>Create your account->.</a>
               </Card.Body>
               <div style={getReflectionStyle()}></div>
             </Card>

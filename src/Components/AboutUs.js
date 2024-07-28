@@ -157,7 +157,7 @@ export default function AboutUs() {
 
         <div className="row my-4">
           <div className='col-lg-12 d-flex justify-content-center align-items-center'>
-           <a href="/Home" target="_blank" rel="noopener noreferrer"><Button variant="outline-primary">Read More</Button>{' '}</a>
+           <a href="/Registration" target="_blank" rel="noopener noreferrer"><Button variant="outline-primary">Join us now</Button>{' '}</a>
           </div>
         </div>
       </div>
