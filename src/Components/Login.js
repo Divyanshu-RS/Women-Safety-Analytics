@@ -79,7 +79,6 @@ export default function Login() {
   });
 
   const handleTouchStart = (card) => setHoveredCard(card);
-  const handleTouchEnd = () => setHoveredCard(null);
 
   return (
     <>
@@ -94,26 +93,24 @@ export default function Login() {
               onTouchEnd={() => setHoveredCard(null)}>
               <Card.Body>
                 <h5 style={{ textAlign: 'center' }}><b>Member Login</b></h5>
-<br></br>
+                <br></br>
                 <div style={{ marginBottom: '1rem' }}>
                   <label htmlFor="email" className='ha'>Mail ID:</label>
                   <input className='h' type="email" id='inp1' placeholder="  email@mail.com" required style={{ width: '70%' }} />
                 </div>
                 <div style={{ marginBottom: '1rem' }}>
                   <label htmlFor="password" className='ha'>Password:</label>
-                  <input className='hi' type='password' id='inp2' placeholder="******"  required style={{ width: '70%' }} />
+                  <input className='hi' type='password' id='inp2' placeholder="******" required style={{ width: '70%' }} />
                 </div>
                 <a href="/Home">
                   <input type="button" id="inp3" value="LOGIN" disabled style={{
-                                                               width: '50%',
-                                                                padding: '0.5rem',
-                                                                borderRadius: '10px',
-                                                                backgroundColor: '#007bff',  // Set to your desired blue color
-                                                                color: '#fff',               // Ensure the text color is readable
-                                                                border: 'none'               // Remove default border
-                                                                 }}
-                                                                   />
-                                                                
+                    width: '50%',
+                    padding: '0.5rem',
+                    borderRadius: '10px',
+                    backgroundColor: '#007bff',  // Set to your desired blue color
+                    color: '#fff',               // Ensure the text color is readable
+                    border: 'none'               // Remove default border
+                  }} />
                 </a>
 
                 {message && <p className='error-message' style={{ color: 'red', textAlign: 'center' }}>{message}</p>}

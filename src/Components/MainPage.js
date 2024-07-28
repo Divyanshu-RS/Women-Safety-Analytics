@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navigation from './Navigation';
 import Carousel from 'react-bootstrap/Carousel';
 import './MainPage.css';
-import { Card, Button, Row, Col } from 'react-bootstrap';
+import { Button,} from 'react-bootstrap';
 
 export default function MainPage() {
   const [hoveredIndex, setHoveredIndex] = useState(null);

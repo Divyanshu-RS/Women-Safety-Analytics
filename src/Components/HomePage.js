@@ -87,7 +87,7 @@ export default function HomePage() {
                   <Card.Body>
                     <Card.Title style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Health:</Card.Title>
                     <Card.Text>
-                      Approximately 18 million people annually or one-third of all deaths worldwidie from poverty-related causes. The bulk of these deaths, which happen at a pace of 50,000 each day, disproportionately impact those living in underdeveloped countries. The harsh effects of persistent poverty are particularly felt by women and children, who are disproportionately overrepresented among the world's destitute.
+                      Approximately 18 million people annually or one-third of all deaths world widie from poverty-related causes. The bulk of these deaths, which happen at a pace of 50,000 each day, disproportionately impact those living in underdeveloped countries. The harsh effects of persistent poverty are particularly felt by women and children, who are disproportionately overrepresented among the world's destitute.
                     </Card.Text>
                     <Card.Title style={{ fontSize: '1.25rem', fontWeight: 'bold' }}>What we do?</Card.Title>
                     <Card.Text>by arranging <b>Health Education Programs;</b></Card.Text>
