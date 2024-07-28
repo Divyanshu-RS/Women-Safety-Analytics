@@ -94,11 +94,11 @@ export default function Login() {
               <Card.Body>
                 <h5 style={{ textAlign: 'center' }}><b>Member Login</b></h5>
                 <br></br>
-                <div style={{ marginBottom: '1rem' }}>
+                <div style={{ marginBottom: '1rem', 'margin-left': '25px', }}>
                   <label htmlFor="email" className='ha'>Mail ID:</label>
                   <input className='h' type="email" id='inp1' placeholder="  email@mail.com" required style={{ width: '70%' }} />
                 </div>
-                <div style={{ marginBottom: '1rem' }}>
+                <div style={{ marginBottom: '1rem', 'margin-left': '25px', }}>
                   <label htmlFor="password" className='ha'>Password:</label>
                   <input className='hi' type='password' id='inp2' placeholder="******" required style={{ width: '70%' }} />
                 </div>
