@@ -152,13 +152,13 @@ export default function HomePage() {
                 <Card.Title style={{ fontSize: '2rem', fontWeight: 'bold' }}>Get Involved</Card.Title>
                 <Card.Text>Together, we can make a difference. Join us in our mission to end poverty. Here's how you can get involved:</Card.Text>
                 <a href="https://pmnrf.gov.in/en/online-donation" target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Donate Now</Button>
+                  <Button variant="primary" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Donate Now</Button>
                 </a>
                 <a href="/Login" target="_blank" rel="noopener noreferrer">
-                  <Button variant="secondary" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Volunteer</Button>
+                  <Button variant="secondary" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Volunteer</Button>
                 </a>
                 <a href="/About" target="_blank" rel="noopener noreferrer">
-                  <Button variant="info" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Follow Us on Social Media</Button>
+                  <Button variant="info" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Follow Us on Social Media</Button>
                 </a>
               </Card.Body>
               <div style={getReflectionStyle()}></div>

@@ -82,7 +82,7 @@ export default function Welfare() {
                   Food distribution programs to address immediate hunger.
                 </Card.Text><br />
                 <a href="https://www.feedingindia.org/requestfoodsupport" target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
+                  <Button variant="primary" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
                 </a>
               </Card.Body>
               <div style={getReflectionStyle()}></div>
@@ -108,7 +108,7 @@ export default function Welfare() {
                   Scholarships and educational support for children and adults.
                 </Card.Text><br />
                 <a href="https://scholarships.gov.in/Students" target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
+                  <Button variant="primary" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
                 </a>
               </Card.Body>
               <div style={getReflectionStyle()}></div>
@@ -134,7 +134,7 @@ export default function Welfare() {
                   Access to healthcare resources, including medical check-ups and treatment assistance.
                 </Card.Text>
                 <a href="https://ab-hwc.nhp.gov.in/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
+                  <Button variant="primary" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
                 </a>
               </Card.Body>
               <div style={getReflectionStyle()}></div>
@@ -163,7 +163,7 @@ export default function Welfare() {
                   Financial assistance programs provide grants, loans, and counseling to alleviate economic difficulties and promote long-term stability.
                 </Card.Text>
                 <a href="https://financialservices.gov.in/beta/en" target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
+                  <Button variant="primary" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
                 </a>
               </Card.Body>
               <div style={getReflectionStyle()}></div>
@@ -189,7 +189,7 @@ export default function Welfare() {
                   Job Training Programs: Develop programs that offer job training and skills development to enhance employability.<br></br> <br></br>
                 </Card.Text>
                 <a href="https://www.ncs.gov.in//Pages/Search.aspx" target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
+                  <Button variant="primary" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
                 </a>
               </Card.Body>
               <div style={getReflectionStyle()}></div>
@@ -215,7 +215,7 @@ export default function Welfare() {
                   Social Support Programs: Create support networks and community groups to foster social connections and emotional well-being. <br></br> <br></br>
                 </Card.Text>
                 <a href="https://disha.gov.in/home" target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
+                  <Button variant="primary" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem' }}>Click Here</Button>
                 </a>
               </Card.Body>
               <div style={getReflectionStyle()}></div>

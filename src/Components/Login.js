@@ -106,7 +106,7 @@ export default function Login() {
                   <input type="button" id="inp3" value="LOGIN" disabled style={{
                     width: '50%',
                     padding: '0.5rem',
-                    borderRadius: '10px',
+                    borderRadius: '8px',
                     backgroundColor: '#007bff',  // Set to your desired blue color
                     color: '#fff',               // Ensure the text color is readable
                     border: 'none'               // Remove default border
@@ -132,10 +132,10 @@ export default function Login() {
                 <Card.Title style={{ fontSize: '2rem', fontWeight: 'bold' }}>Get Involved</Card.Title>
                 <Card.Text>Together, we can make a difference. Join us in our mission to end poverty. Here's how you can get involved:</Card.Text>
                 <a href="https://pmnrf.gov.in/en/online-donation" target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Donate Now</Button>
+                  <Button variant="primary" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Donate Now</Button>
                 </a>
                 <a href="/About" target="_blank" rel="noopener noreferrer">
-                  <Button variant="info" style={{ borderRadius: '20px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Follow Us on Social Media</Button>
+                  <Button variant="info" style={{ borderRadius: '10px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Follow Us on Social Media</Button>
                 </a>
               </Card.Body>
               <div style={getReflectionStyle()}></div>

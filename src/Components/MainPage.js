@@ -25,8 +25,8 @@ export default function MainPage() {
     <>
       <Navigation />
       <div className="main-container">
-         <a href="/Home">
-                  <Button variant="primary" style={{ borderRadius: '8px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Click here to continue</Button>
+         <a href='/Home'>
+                  <Button variant="secondary" style={{ borderRadius: '8px', padding: '0.5rem 1.5rem', margin: '0.5rem', background: 'linear-gradient(to bottom, #000000 0%, #434343 100%)', boxShadow: 'inset 0 0 60px rgba(0,0,0,0.7)',  }}>Click here to continue</Button>
                 </a>
         <br />
         <Carousel fade>
