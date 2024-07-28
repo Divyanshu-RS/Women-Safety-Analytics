@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navigation from './Navigation';
 import Carousel from 'react-bootstrap/Carousel';
 import './MainPage.css';
+import { Card, Button, Row, Col } from 'react-bootstrap';
 
 export default function MainPage() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -24,7 +25,9 @@ export default function MainPage() {
     <>
       <Navigation />
       <div className="main-container">
-        <p> Click <a href='/Home'>here</a> to continue</p>
+         <a href="/Home">
+                  <Button variant="primary" style={{ borderRadius: '8px', padding: '0.5rem 1.5rem', margin: '0.5rem' }}>Click here to continue</Button>
+                </a>
         <br />
         <Carousel fade>
           <Carousel.Item
