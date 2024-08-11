@@ -1,4 +1,4 @@
-<table width="100%" border="0" cellspacing="0" cellpadding="100">
+<table width="100%" border="0.1" cellspacing="0" cellpadding="100">
   <tr>
     <td align="left" valign="middle">
       <a href="https://www.buymeacoffee.com/divyanshu0212" target="_blank">
