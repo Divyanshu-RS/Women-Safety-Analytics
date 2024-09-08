@@ -13,8 +13,8 @@ The software uses OpenCV for image processing, enabling detection of faces and g
 ## Tech Stack
 - Programming Language: Python
 - Libraries:
-OpenCV: For real-time image processing and computer vision tasks.
-NumPy: For numerical operations and array manipulations.
+    -- OpenCV: For real-time image processing and computer vision tasks.
+--NumPy: For numerical operations and array manipulations.
 Deep Learning Framework:
 OpenCV DNN Module: Used for face and hand detection by loading pre-trained models.
 Tools:
